@@ -1,4 +1,3 @@
-// Efek muncul saat scroll
 window.addEventListener("scroll", function() {
     const cards = document.querySelectorAll(".stat-card, .book-card");
     cards.forEach(card => {
@@ -11,4 +10,3 @@ window.addEventListener("scroll", function() {
         }
     });
 });
-
